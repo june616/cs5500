@@ -1,11 +1,11 @@
 # TODO Please edit the following information in your assignment
 
-- Name:
-- How many hours did it take you to complete this assignment?
-- Did you collaborate with any other students/TAs/Professors?
+- Name: Junyao Feng
+- How many hours did it take you to complete this assignment? 3 hours
+- Did you collaborate with any other students/TAs/Professors? Yes
 - Did you use any external resources? (Cite them below)
-  - tbd
-  - tbd
+  - https://mathspp.com/blog/custom-json-encoder-and-decoder
+  - https://setuptools.pypa.io/en/latest/userguide/quickstart.html
 - (Optional) What was your favorite part of the assignment?
 - (Optional) How would you improve the assignment?
 
@@ -64,6 +64,5 @@ See the folders [part1](./part1) and [part2](./part2) for this assignment. **You
   </tbody>
 </table>
 
-
-* Note: You must also commit any additional files into your repository so we can test your code.
-  * Points will be lost if you forget!
+- Note: You must also commit any additional files into your repository so we can test your code.
+  - Points will be lost if you forget!
