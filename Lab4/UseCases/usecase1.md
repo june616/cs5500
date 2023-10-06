@@ -6,35 +6,40 @@
 
 <hr>
 
-**Use Case**: *use-case-title*
+**Use Case**: Set Canvas Dimensions
 
-**Primary Actor**: *primary-actor*
+**Primary Actor**: User
 
-**Goal in Context**: *the aim of the primary-actor in a particular circumstance*
+**Goal in Context**: To set the dimensions of the canvas.
 
-**Preconditions**: *conditions that must be true before the scenario may play out*
+**Preconditions**: The program must be running and in a responsive state.
 
-**Trigger**: *an action or actions that initiate the scenario*
-  
-**Scenario**: *an enumerated list of steps describing the actions and interactions of the primary actor with the system*
- 
-**Exceptions**: *errors or faults that may occur during the scenario. Should include remedy/corrective action taken by the primary actor*
+**Trigger**: The user selects the canvas dimension settings.
 
-**Priority**: *relative importance of this use case compared to other use cases*
+**Scenario**:
 
-**When available**: *the targeted release that covers this use case*
+1. User opens the canvas dimension settings.
+2. User enters the desired width and height (e.g., 600x400).
+3. User confirms the dimensions.
 
-**Channel to actor**: *the means through which the primary actor and the system communicate*
+**Exceptions**:
 
-**Secondary Actor**: *any other actors – people or systems – that may be involved in the scenario*
+- If the entered dimensions are invalid (e.g., negative values), display an error message and prompt the user to enter valid dimensions.
+- If the program is unresponsive during this action, it can be terminated from the operating system.
 
-**Channels to Secondary Actors**: *the means through which any secondary actors may interact with the system or other actors*
+**Priority**: Medium-priority
 
-**Open Issues**: *notes, concerns, or other materials*
+**When available**: First release
+
+**Channel to actor**: The primary actor communicates through the user interface.
+
+**Secondary Actor**: N/A
+
+**Channels to Secondary Actors**: N/A
+
+**Open Issues**: None
 
 <hr>
-
-
 
 (adapted by Pressman and Maxim, Software Engineering: A Practitioner’s Approach, pp. 151-152, from Cockburn,
 A., Writing Effective Use-Cases, Addison-Wesley, 2001)

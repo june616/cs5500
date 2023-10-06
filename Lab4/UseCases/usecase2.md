@@ -6,35 +6,40 @@
 
 <hr>
 
-**Use Case**: *use-case-title*
+**Use Case**: Select Drawing Color
 
-**Primary Actor**: *primary-actor*
+**Primary Actor**: User
 
-**Goal in Context**: *the aim of the primary-actor in a particular circumstance*
+**Goal in Context**: To select a drawing color from a predefined set of colors.
 
-**Preconditions**: *conditions that must be true before the scenario may play out*
+**Preconditions**: The program must be running and in a responsive state.
 
-**Trigger**: *an action or actions that initiate the scenario*
-  
-**Scenario**: *an enumerated list of steps describing the actions and interactions of the primary actor with the system*
- 
-**Exceptions**: *errors or faults that may occur during the scenario. Should include remedy/corrective action taken by the primary actor*
+**Trigger**: User selects an option to choose a drawing color.
 
-**Priority**: *relative importance of this use case compared to other use cases*
+**Scenario**:
 
-**When available**: *the targeted release that covers this use case*
+1. User selects the "Select Drawing Color" option from the program's menu.
+2. User chooses a color by pressing the corresponding number key (1 through 8).
+3. The program sets the drawing color based on the user's selection.
 
-**Channel to actor**: *the means through which the primary actor and the system communicate*
+**Exceptions**:
 
-**Secondary Actor**: *any other actors – people or systems – that may be involved in the scenario*
+- If the user selects an invalid color (e.g., a number outside the range 1-8), the program ignores the input.
+- If the program encounters an internal error, it displays an error message and allows the user to retry or exit.
 
-**Channels to Secondary Actors**: *the means through which any secondary actors may interact with the system or other actors*
+**Priority**: Medium-priority
 
-**Open Issues**: *notes, concerns, or other materials*
+**When available**: First release
+
+**Channel to actor**: The primary actor communicates through the program's user interface.
+
+**Secondary Actor**: N/A
+
+**Channels to Secondary Actors**: N/A
+
+**Open Issues**: None
 
 <hr>
-
-
 
 (adapted by Pressman and Maxim, Software Engineering: A Practitioner’s Approach, pp. 151-152, from Cockburn,
 A., Writing Effective Use-Cases, Addison-Wesley, 2001)

@@ -6,35 +6,39 @@
 
 <hr>
 
-**Use Case**: *use-case-title*
+**Use Case**: Draw with Mouse
 
-**Primary Actor**: *primary-actor*
+**Primary Actor**: User
 
-**Goal in Context**: *the aim of the primary-actor in a particular circumstance*
+**Goal in Context**: To draw on the canvas using the mouse as if it were a pencil on paper.
 
-**Preconditions**: *conditions that must be true before the scenario may play out*
+**Preconditions**: The program must be running and in a responsive state.
 
-**Trigger**: *an action or actions that initiate the scenario*
-  
-**Scenario**: *an enumerated list of steps describing the actions and interactions of the primary actor with the system*
- 
-**Exceptions**: *errors or faults that may occur during the scenario. Should include remedy/corrective action taken by the primary actor*
+**Trigger**: User interacts with the canvas using the mouse.
 
-**Priority**: *relative importance of this use case compared to other use cases*
+**Scenario**:
 
-**When available**: *the targeted release that covers this use case*
+1. User moves the mouse pointer over the canvas.
+2. When the user presses and holds the left mouse button, the program detects the event.
+3. The program changes the color of the pixel under the mouse pointer to the currently selected drawing color.
+4. User can drag the mouse to draw lines or shapes on the canvas.
+5. When the user releases the left mouse button, the drawing action stops.
 
-**Channel to actor**: *the means through which the primary actor and the system communicate*
+**Exceptions**: If the program encounters an internal error, it displays an error message and allows the user to retry or exit.
 
-**Secondary Actor**: *any other actors – people or systems – that may be involved in the scenario*
+**Priority**: High-priority
 
-**Channels to Secondary Actors**: *the means through which any secondary actors may interact with the system or other actors*
+**When available**: First release
 
-**Open Issues**: *notes, concerns, or other materials*
+**Channel to actor**: The primary actor communicates through the program's user interface and the mouse.
+
+**Secondary Actor**: N/A
+
+**Channels to Secondary Actors**: N/A
+
+**Open Issues**: None
 
 <hr>
-
-
 
 (adapted by Pressman and Maxim, Software Engineering: A Practitioner’s Approach, pp. 151-152, from Cockburn,
 A., Writing Effective Use-Cases, Addison-Wesley, 2001)
