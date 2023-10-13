@@ -1,4 +1,4 @@
 # Github Links
 
-* opp-api:
-* opp-ui:
+- opp-api: https://github.com/Team-WZF/opp-api
+- opp-ui: https://github.com/Team-WZF/opp-ui
