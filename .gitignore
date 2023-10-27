@@ -6,6 +6,10 @@
 *.pyc
 *.pytest_cache
 *.egg-info
+venv_name/
+__pycache__/
+*.pyo
+.coverage
 
 # Distutils directories
 build/
